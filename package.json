@@ -3,10 +3,11 @@
   "version": "12.14.1",
   "description": "job-b",
   "main": "app.js",
+  
   "scripts": {
-    "start": "app.js",
-    "dev": " nodemon app.js"
-  },
+    "start": "node fileName.js",
+    "start:dev": "nodemon fileName.js"
+},  
   "keywords": [],
   "author": "Wajiha Asif",
   "license": "ISC",
