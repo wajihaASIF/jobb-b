@@ -1,7 +1,7 @@
 {
   "name": "work",
   "version": "12.14.1",
-  "description": "",
+  "description": "job-b",
   "main": "app.js",
   "scripts": {
     "start": "app.js",
