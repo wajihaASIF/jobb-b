@@ -1,0 +1,192 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+          
+   
+
+
+
+
+		
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="codepixer">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Job-b</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="/linearicons.css">
+			<link rel="stylesheet" href="/font-awesome.min.css">
+			<link rel="stylesheet" href="/bootstrap.css">
+			<link rel="stylesheet" href="/magnific-popup.css">
+			<link rel="stylesheet" href="/nice-select.css">					
+			<link rel="stylesheet" href="/animate.min.css">
+			<link rel="stylesheet" href="/owl.carousel.css">
+			<link rel="stylesheet" href="/main.css">
+		</head>
+		
+		<body>
+
+			  <header id="header" id="home">
+				<div class="header-top">
+		  			<div class="container">
+				  		<div class="row justify-content-end">
+				  			<div class="col-lg-8 col-sm-4 col-8 header-top-right no-padding">
+				  				<ul>
+									<li style="text-align: left;" ></li>
+										JOB BOARD
+									</li>
+				  					<li>
+										<a href="/users/register" class="primary-btn text-uppercase" style="color: crimson;"> Apply </a>
+				  					</li>
+				  					
+				  					<li>
+				  						<a href="tel:03110432118" >03110432118</a>
+				  					</li>				  					
+				  				</ul>
+				  			</div>
+				  		</div>			  					
+		  			</div>
+				</div>			  	
+			    <div class="container">
+			    	<div class="row align-items-center justify-content-between d-flex">
+				      				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+				          
+				            <ul>
+				              <li><a href="generic.html">Generic</a></li>
+				              <li><a href="elements.html">Elements</a></li>
+				            </ul>
+				          </li>
+				        </ul>
+				      </nav><!-- #nav-menu-container -->		    		
+			    	</div>
+			    </div>
+			  </header><!-- #header -->
+
+
+			<!-- start banner Area -->
+			<section class="banner-area" id="home">	
+				<div class="container">
+					<div class="row fullscreen d-flex align-items-center justify-content-start">
+						<div class="banner-content col-lg-7" style="color: crimson;">
+							
+							<h1>
+								Start your day with <br>
+								a black Coffee				
+							</h1>
+							<a href="/users/register" class="primary-btn text-uppercase" style="color: crimson;"> Apply </a>
+						</div>											
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->	
+
+			<!-- Start About -->
+			<section >
+				<a style="box-sizing: inherit ; size: initial;" content-box; border:2px solid;" > <b> About</b></a>
+				<br> <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+
+							<br>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
+							<br>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar
+				
+							<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.</p>
+							
+						
+			</section>
+			<!-- End About -->
+					   
+			<footer style="padding: 10%;color: blueviolet;">
+				
+				
+				<a style="box-sizing: content-box; border:2px solid;" href="/contact" class="primary-btn text-uppercase">Email</a>
+			<br>
+			<br>	
+			 <form class="form-signin" method="post" action="/">
+				<input
+				  style="height: 100px;"
+				  type="text"
+				  name="comment"
+				  placeholder="Enter your comment"
+				  class="form-control"
+				  id="comment"
+				/>
+				<input
+				  style="height: 100px;"
+				  type="text"
+				  name="comment_name"
+				  placeholder="Enter your name"
+				  class="form-control"
+				  id="comment_name"
+				/>
+				<button class="btn btn-dark mt-3" type="submit">
+				  Submit
+				</button>
+				<br>
+				<br>
+			  </form>
+			  <main>
+				<div class="row">
+				  <div class="col-sm-12">
+					<div class="well">
+						<table class="table table-borded">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Comment</th>
+									
+									<th colspan="2">action</th>
+								</tr>
+							</thead>
+							<tbody>
+								<% for (var i = 0; i < comments.length ; i++) { %>
+								<tr>
+									<td> <%= comments[i].comment_name  %></td>
+									<td><%= comments[i].comment  %></td>
+									
+								</tr>
+								<% } %>
+							</tbody>	
+						</table>
+					</div>
+				  </div>
+				</div>
+			</main>
+			</footer>
+
+			<!-- End footer Area -->	
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+			<script src="js/owl.carousel.min.js"></script>			
+			<script src="js/jquery.sticky.js"></script>
+			<script src="js/jquery.nice-select.min.js"></script>			
+			<script src="js/parallax.min.js"></script>	
+			<script src="js/waypoints.min.js"></script>
+			<script src="js/jquery.counterup.min.js"></script>					
+			<script src="js/mail-script.js"></script>	
+			<script src="js/main.js"></script>	
+		</body>
+	</html>
+
+
+
