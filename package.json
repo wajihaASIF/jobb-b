@@ -8,10 +8,10 @@
     "dev": " nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Wajiha Asif",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^4.0.0",
+    "bcrypt": "^4.0.1",
     "bcryptjs": "^2.4.3",
     "connect-flash": "^0.1.1",
     "ejs": "^3.0.1",
@@ -28,5 +28,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wajihaASIF/jobb-b.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wajihaASIF/jobb-b/issues"
+  },
+  "homepage": "https://github.com/wajihaASIF/jobb-b#readme"
 }
