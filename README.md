@@ -16,6 +16,7 @@ $ npm install express
 # Or run with Nodemon
 
 $ node app
+$ npm start
 
 
 # Visit http://localhost:5000
