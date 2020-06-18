@@ -20,5 +20,8 @@ $ node app
 
 # Visit http://localhost:5000
 ```
+### Heroku
+```sh
+$ https://jobb-board.herokuapp.com/
 
-
+```
