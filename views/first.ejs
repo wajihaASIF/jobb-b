@@ -1,13 +1,11 @@
 	<!DOCTYPE html>
 	<html lang="zxx" class="no-js">
 	<head>
-          
-   
 
 
 
 
-		
+
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
@@ -35,48 +33,339 @@
 			<link rel="stylesheet" href="/animate.min.css">
 			<link rel="stylesheet" href="/owl.carousel.css">
 			<link rel="stylesheet" href="/main.css">
+			<link rel="stylesheet" href="../public/css/stylee.css">
+		
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+				body{
+				margin: 0;
+				padding: 0;
+				/* font-family: 'Raleway', sans-serif; */
+				font-family: 'Montserrat', sans-serif;
+				}
+				button,input,select{
+				font-family: 'Raleway', sans-serif;
+				}
+				header{
+				background: #000;
+				width: 100%
+				}
+				.container{
+				width: 1170px;
+				margin: 0 auto;
+				}
+
+				/* Main Menu CSS */
+
+
+				.logo{
+				width: 30%;
+				float: left;
+				margin-top: 20px
+				}
+				.menu{
+				width: 70%;
+				float: right;
+				}
+				.menu ul{
+				float: right;
+				list-style: none;
+				}
+				.menu ul li{
+				display: inline-block;
+				padding: 10px;
+				position: relative;
+				}
+				.menu ul li a{
+				text-decoration: none;color:#fff;
+				font-size:17px;
+				transition: 0.6s;
+				}
+				.menu ul li:hover a{
+				color:orange;
+				}
+				.menu ul li:hover ul li a{
+				color:white;
+				}
+				.menu ul li:hover ul{
+				display: block;
+				}
+
+				/*  Submenu CSS  */
+
+
+				.menu ul ul{
+				float: none;
+				background: black;
+				position: absolute;
+				padding-left: 0px;
+				border-top: 3px solid orange;
+				width: 300px;
+				margin-top: 15px;
+				display: none;
+				/* z-index: -1; */
+				transition: 0.6s;
+				}
+				.menu ul ul li{
+				display: block;
+				border-bottom: 2px orange solid;
+				transition: 0.6s;
+				line-height: 35px;
+				}
+				.menu ul ul li:hover{
+				background: orange
+				}
+				.menu ul ul li:hover a{
+				color:white !important;
+				}
+
+				.clear{
+				clear: both;
+				}
+
+				.hero{
+				background: url('../images/back.jpg') no-repeat;
+				background-size: cover;
+				background-position: bottom;
+				}
+				.hero .overlay{
+				background: rgba(0, 0, 0, 0);
+				padding-top: 200px;
+				padding-bottom: 200px;
+				}
+				.hero .overlay .content{
+				color: white;
+				text-align: center;
+				}
+
+				.hero .overlay .content h1{
+				font-size: 52px
+				}
+				.hero .overlay .content p{
+				font-size: 18px;
+				}
+
+				.btn{
+				background: white;
+				padding: 10px 50px 10px 50px;
+				font-size: 18px;
+				border-radius: 50px;
+				margin-top: 30px;
+				border:2px solid black;
+				outline: 0;
+				cursor: pointer;
+				transition: 0.6s;
+				}
+				.btn:hover{
+				background: orange;
+				color:white
+				}
+				.col50{
+				width: 50%;
+				float: left;
+				}
+				.margin{
+				margin-top: 50px;
+				}
+				.l-head{
+				font-size: 56px;
+				font-weight:1000
+				}
+				.btn-black{
+				background: black;
+				padding: 10px 50px 10px 50px;
+				font-size: 18px;
+				border-radius: 50px;
+				border:2px solid black;
+				outline: 0;
+				cursor: pointer;
+				transition: 0.6s;
+				color:white
+				}
+				.silver{
+				color:#bbb;
+				line-height: 30px;
+				}
+				.counter{
+				background: url('../images/counter.jpg') no-repeat;
+				padding: 100px 0px 100px 0px;
+				background-size: cover;
+				background-position: center;
+				}
+				.col-25{
+				width: 25%;
+				float: left;
+				text-align: center;
+				color:white
+				}
+				.count{
+				padding:50px
+				}
+				.count-item{
+				font-size: 66px;
+				font-weight: bold;
+				font-family: cursive;
+				}
+				.count-item::after{
+				content: "_";
+				display: block;
+				color:orange;
+				}
+				.rimg{
+				width: 100%;
+				border-radius: 10px;
+				}
+				.checklist{
+				list-style: none;
+				}
+				.checklist li{
+				line-height: 35px;
+				}
+				.checklist li i{
+				color:  #2d1dff;
+				}
+				.progress80{
+				width: 80%;
+				height: 6px;
+				background:orange;
+				border-radius: 4px;
+				}
+
+				.progress20{
+				width: 20%;
+				height: 6px;
+				background:orange;
+				border-radius: 4px;
+				}
+
+				footer{
+				background: url('../images/footer.jpg') no-repeat;
+				background-position: center;
+				background-size: cover;
+				padding: 100px 0px 100px 0px;
+				color: white;
+				}
+				footer p{
+				font-size: 17px;
+				line-height: 30px;
+				}
+				.social, .footer-list{
+				list-style: none;
+				padding-left: 0px
+				}
+				.social li{
+				display: inline-block;
+				height: 40px;
+				width: 40px;
+				background: white;
+				color: black;
+				border-radius: 30px;
+				position: relative;
+				transition: 0.6s
+				}
+				.social li a{
+				text-decoration: none;
+				color:black;
+				font-size: 18px;
+				}
+				.social li:hover {
+				background: orange
+				}
+				.social li:hover a{
+				color:white
+				}
+				.social li a i{
+				position:absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				}
+
+
+				.col-33{
+				width: 33.33333%;
+				float: left;
+				}
+			.footer-list li{
+			line-height: 35px;
+			}
+			.footer-list li a{
+			text-decoration: none;
+			color:#ccc
+			}
+			.footer-list li:hover a{
+			color:white;
+			}
+			@media (max-width:768px) {
+			.container{
+			width: 100%;
+			}
+			.logo img{
+			display: block;
+			margin: 0 auto;
+			}
+			header{
+			padding: 20px 0px 20px 0px;
+			}
+			.logo{
+			margin: 0px;
+			}
+			.menu{
+			display: block;
+			margin: 0 auto;
+			text-align: center;
+			}
+			.menu ul{
+			float: none;
+
+			}
+			.logo, .menu, .col50, .col-33, .col-25{
+			float:none;
+			width: 100%
+			}
+			.menu ul li{
+			display: inline-block;
+			float: none;
+			text-align: center;
+			}
+			}
+
+	</style>
 		</head>
 		
 		<body>
-
-			  <header id="header" id="home">
-				<div class="header-top">
-		  			<div class="container">
-				  		<div class="row justify-content-end">
-				  			<div class="col-lg-8 col-sm-4 col-8 header-top-right no-padding">
-								
-													  
-				  				<ul>
-									<a style="box-sizing: content-box; border:2px solid;" href="/contact" class="primary-btn text-uppercase color: crimson; ">Contact </a>
-				  					<li>
-										<a href="/users/register" class="primary-btn text-uppercase" style="color:black;"> Apply </a>
-									  
-									</li>
-				  					<li>
-				  						<a style="box-sizing: content-box; border:2px solid;"  class="primary-btn text-uppercase color: crimson;"  href="tel:03110432118" > <font color="black"> 03110432118</font></a>
-				  					</li>				  					
-				  				</ul>
-				  			</div>
-				  		</div>			  					
-		  			</div>
-				</div>			  	
-			    <div class="container">
-			    	<div class="row align-items-center justify-content-between d-flex">
-				      				      <nav id="nav-menu-container">
-				        <ul class="nav-menu">
-				          
-				            <ul>
-				              <li><a href="generic.html">Generic</a></li>
-				              <li><a href="elements.html">Elements</a></li>
-				            </ul>
-				          </li>
-				        </ul>
-				      </nav><!-- #nav-menu-container -->		    		
-			    	</div>
-			    </div>
-			  </header><!-- #header -->
-
-
+			<header>
+				<div class="container">
+				
+				  <div class="logo">
+					<a href="./">
+					  <img src="images/logow.png" alt="">
+					</a>
+				  </div>
+				  <div class="menu">
+					<ul>
+					  <li> <a href="./">Home</a> </li>
+					  
+					  <li> <a href="/contact">Contact</a>
+						<ul>
+						  <li> <a href="#">Web Development</a> </li>
+						  <li> <a href="#">Mobile App Development</a> </li>
+						  <li> <a href="#">Android App Development</a> </li>
+						  <li> <a href="#">Desktop App Development</a> </li>
+						</ul>
+					  </li>
+					  <li> <a href="/users/register">Login/Register</a> </li>
+					  <li> <a href="./"></a> </li>
+					</ul>
+				  </div>
+				  <div class="clear ">
+				
+				  </div>
+				
+				</div>
+				</header>
 			<!-- start banner Area -->
 			<section class="banner-area" id="home">	
 				<div class="container">
@@ -94,24 +383,238 @@
 			</section>
 			<!-- End banner Area -->	
 
-			<!-- Start About -->
-			<section >
-				<a style="box-sizing: inherit ; size: initial;" content-box; border:2px solid;" > <b> About</b></a>
-				<br> <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+			
+				
 
-							The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
-							Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar
-				
-							<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.</p>
-							
-						
-			</section>
-			<!-- End About -->
-					   
+			 
+				<div class="container">
+					<div class="margin">
+					
+					</div>
+					
+					<div class="count">
+					
+					
+					<div class="col50">
+					
+					<p>Always at service!
+					</p>
+					<h1 class="l-head">Splendid ideas for starting new business
+					</h1>
+					<div class="margin">
+					
+					</div>
+					<a href="#">
+					  <button class="btn-black" >Explore More</button>
+					</a>
+					
+					
+					
+					</div>
+					<div class="col50">
+					
+					
+					<div class="col50">
+					
+					<h1>  <i class="fa fa-bolt" aria-hidden="true"></i>
+					</h1>
+					
+					
+					<h2>Fast & effective
+					</h2>
+					
+					<p class="silver">
+					  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					
+					</p>
+					
+					</div>
+					<div class="col50">
+					<h1>
+					  <i class="fa fa-laptop" aria-hidden="true"></i>
+					</h1>
+					
+					<h2>
+					  Marketing strategy
+					
+					</h2>
+					<p class="silver">
+					  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					
+					</p>
+					
+					</div>
+					<div class="col50">
+					  <h1>
+						<i class="fa fa-user-o" aria-hidden="true"></i>
+					  </h1>
+					
+					<h2>Consulting
+					</h2>
+					<p class="silver">
+					  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					
+					</p>
+					
+					</div>
+					<div class="col50">
+					
+					<h1>
+					  <i class="fa fa-life-ring" aria-hidden="true"></i>
+					
+					</h1>
+					
+					<h2>
+					  Startup support
+					</h2>
+					<p class="silver">
+					  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					
+					</p>
+					
+					</div>
+					
+					<div class="clear">
+					
+					</div>
+					
+					</div>
+					
+					<div class="clear">
+					
+					</div>
+					
+					<div class="margin">
+					
+					</div>
+					
+					</div>
+					</div>
+					
+					<div class="margin">
+					
+					</div>
+					
+					<section class="counter">
+					<div class="col-25">
+					  <div class="count">
+					<h1 class="count-item">
+					32
+					</h1>
+					
+					<h2>
+					  Businesses built in just 2 years
+					
+					</h2>
+					</div>
+					</div>
+					<div class="col-25">
+					<div class="count">
+					  <h1 class="count-item">
+					  100+
+					  </h1>
+					
+					<h2>
+					  Milestones completed
+					
+					</h2>
+					
+					</div>
+					
+					</div>
+					<div class="col-25">
+					  <div class="count">
+						<h1 class="count-item">
+						5K
+						</h1>
+					
+					
+					<h2>
+					  Positive reviews from clients
+					
+					</h2>
+					</div>
+					
+					</div>
+					
+					<div class="col-25">
+					
+					  <div class="count">
+						<h1 class="count-item">
+						65
+						</h1>
+					
+					
+					  <h2>
+					  Best employees in the world
+					</h2>
+					
+					</div>
+					
+					</div>
+					<div class="clear">
+					
+					</div>
+					
+					</section>
+					<div class="margin">
+					
+					</div>
+					
+					<section>
+					  <div class="container">
+						<div class="col50">
+						  <div class="count">
+					
+						  <img src="images/lblack.jpg" class="rimg" alt="">
+					
+					
+						  </div>
+							</div>
+						<div class="col50">
+						  <div class="count">
+					
+						  <h1 class="l-head">Highest security in the castle
+					</h1>
+					
+					<p class="silver">
+					  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae sodales lectus, non ultrices nisi. In varius, leo non gravida tristique, diam nunc aliquam
+					
+					</p>
+					
+					<ul class="checklist">
+					
+					<li>
+					  <i class="fa fa-check"></i>
+					Password protection
+					</li>
+					<li>
+					  <i class="fa fa-check"></i>
+					2-step authorization key
+					</li>
+					<li>
+					  <i class="fa fa-check"></i>
+					Face recognition
+					</li>
+					</ul>
+					
+					
+					</div>
+					
+						</div>
+						<div class="clear">
+					
+						</div>
+					  </div>
+					</section>	
+
+			
+					  
 			<footer style="padding: 10%;color: blueviolet;">
-				
+				<h1 style="color: gainsboro;"> Your Feedback Here</h1> 
 							
-			<br>	
+			
+			
 			 <form class="form-signin" method="post" action="/">
 				<input
 				  style="height: 100px;"
@@ -129,7 +632,7 @@
 				  class="form-control"
 				  id="comment_name"
 				/>
-				<button class="btn btn-dark mt-3" type="submit">
+				<button class="btn btn-dark mt-3" type="submit" style="color: darkcyan;">
 				  Submit
 				</button>
 				<br>
@@ -162,6 +665,7 @@
 				  </div>
 				</div>
 			</main>
+			
 			</footer>
 
 			<!-- End footer Area -->	
