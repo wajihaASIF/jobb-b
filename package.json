@@ -24,7 +24,7 @@
     "mailer": "^0.6.7",
     "mongoose": "^5.9.9",
     "node": "^14.4.0",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "socket.io": "^2.3.0"
